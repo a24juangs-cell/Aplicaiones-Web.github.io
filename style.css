@@ -1,0 +1,87 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+/* Cabecera y pie de página */
+header, footer {
+  background-color: #c25d5d;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+}
+
+/* Estructura principal */
+main {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  height: 800px;
+
+}
+
+/* Navegación lateral */
+nav {
+  background-color: #c25d5d;
+  color: white;
+  flex: 0;
+  text-align: center;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+/* Sección central */
+section {
+  background-color: #c25d5d;
+  flex: 3.5;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Contenido interno de la sección */
+section > header
+{
+  background-color: #c0b868;
+  color: white;
+
+  padding: 30px;
+  margin-top: 50px;
+}
+
+article {
+  background-color: #c7bf6d;
+  margin: 50px 0;
+  padding: 180px;
+  color: white;
+
+}
+footer
+{
+  background-color: #c0b868;
+   margin: 90px 0;
+  padding: 30px;
+  color: white;
+
+}
+/* Barra lateral */
+aside {
+  background-color: #c25d5d;
+  color: white;
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  margin-left: 20px;
+}
+
+/* Pie de página global */
+body > footer {
+  background-color: #c25d5d;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
